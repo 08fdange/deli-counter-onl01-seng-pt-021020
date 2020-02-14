@@ -8,6 +8,6 @@ def line(katz_deli)
     katz_deli.each.with_index(1) do |person, index|
       line_string << ("#{index}. #{person} ")
     end
-    puts line_string
+    line_string
   end
 end
