@@ -9,5 +9,6 @@ def line(katz_deli)
       line_string << ("#{index}. #{person} ")
     end
     line_string.pop(" ")
+    puts line_string
   end
 end
