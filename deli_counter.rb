@@ -16,4 +16,5 @@ def take_a_number(katz_deli, name)
   katz_deli.pop(name)
   x = katz_deli.length
   puts "Welcome, #{name}. You are number #{x} in line."
+  return katz_deli
 end
